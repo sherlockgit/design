@@ -2,11 +2,8 @@ package com.sherlock.design.creational.singleton;
 
 import com.sherlock.design.creational.singleton.hungersingleton.AnitCloneHungerSingleton;
 import com.sherlock.design.creational.singleton.hungersingleton.CloneHungerSingleton;
-import com.sherlock.design.creational.singleton.hungersingleton.HungerSingleton;
 import lombok.extern.slf4j.Slf4j;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 @Slf4j
 public class CloneAttack {
